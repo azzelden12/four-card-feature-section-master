@@ -28,20 +28,20 @@ body {
     font-size: 15px;
     font-family: "Poppins", sans-serif;
 }
-.container {
+main {
     margin-bottom: 1rem;
 }
-.container .title {
+main .title {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 200;
     color: var(--Very-Dark-Blue);
 }
-.container .title span {
+main .title span {
     font-weight: 600;
 }
-.container .p-1 {
+main .p-1 {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -112,7 +112,7 @@ background-color: var(--Blue);
     color: var(--Grayish-Blue);
 }
 @media(max-width: 425px) {
-    .container {
+    main {
         max-width: 350px;
     }
     .pearnt {
@@ -120,10 +120,10 @@ background-color: var(--Blue);
         flex-direction: column;
 
     }
-    .container .p-1 {
+    main .p-1 {
         width: 320px;
     }
-    .container .title {
+    main .title {
         max-width: 350px;
         font-size: 25px;
         text-align: center;
